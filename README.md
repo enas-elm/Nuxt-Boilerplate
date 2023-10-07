@@ -1,6 +1,6 @@
 # Boilerplate
 
-This boilerplate is using
+This boilerplate is using :
 
 - [ESLint](#lint)
 - [Tailwind](#style)
