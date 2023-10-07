@@ -1,14 +1,16 @@
+
+
 <template>
-    <div class="all">
+    <div class="all h-fit absolute top-0 bottom-0 left-0 right-0 m-auto">
 
         <div class="flex justify-center items-center">
-            <ChevronLeftIcon class="h-10 w-10 text-[#e1fd86]" />
-            <h1>This is a boilerplate</h1>
-            <ChevronRightIcon class="h-10 w-10 text-[#e1fd86]" />
+            <ChevronLeftIcon class=" w-20 text-lightYellow" />
+            <h1>THIS IS A BOILERPLATE</h1>
+            <ChevronRightIcon class="w-20 text-lightYellow" />
         </div>
         <p class="mt-8 text-lg text-center text-tertiaryLight">
             Eslint, Prettier, Hero Icons, Babel, Tailwind, Nuxt... <br>
-            check the <u> <a href="https://github.com/enas-elm">github</a> </u> for more information !
+            check the <u> <a href="https://github.com/enas-elm/Nuxt-Boilerplate">github</a> </u> for more information !
         </p>
     </div>
 </template>
@@ -26,4 +28,3 @@ export default {
 };
 </script>
 
-s

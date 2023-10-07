@@ -12,15 +12,22 @@ module.exports = {
     colors: {
       primary: '#027b80',
       primaryLight: '#B3ECEC',
-      primaryDark: '#00484F',
+      primaryDark: '#0f2827',
 
-      secondary: '#af4d4d',
+      secondary: '#c16161',
       secondaryLight: '#EBC6C6',
       secondaryDark: '#7D0000',
 
       tertiary: '#A2CF8C',
       tertiaryLight: '#e3fad8',
+      tertiaryLight2: '#e3fad8',
       tertiaryDark: '#5C8149',
+
+
+      greenGrayLight: '#bfd5b5',
+      greenGrayDark: '#8aa18e',
+
+      lightYellow: '#e1fd86',
     },
     screens: {
       xs: '480px',

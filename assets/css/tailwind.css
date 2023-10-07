@@ -2,47 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
 @layer components {
   body {
-    @apply bg-primary;
-    font-family: "Roboto", sans-serif;
+    @apply bg-primaryDark ;
   }
 
   h1 {
-    @apply text-5xl text-center text-tertiaryLight font-extrabold;
+    @apply text-5xl text-center text-primaryLight font-extrabold;
   }
 
-  h2 {
-    @apply text-secondary w-full text-center;
-  }
 
   .all {
-    @apply gap-20 gap-y-5 gap-x-5  p-[5%];
+    @apply gap-20 gap-y-5 gap-x-5  p-10;
   }
 
-  .gen {
-    @apply flex gap-5 flex-wrap justify-center mt-[60px] mx-auto my-0;
-  }
-
-  /* In each div for each pokemon*/
-  .pokedivId {
-    @apply text-center w-[150px] bg-secondaryLight p-[15px] border-[solid] border-[5px] border-primary;
-  }
-  .pokedivId p {
-    @apply text-center;
-  }
-  .darkpokediv {
-    @apply bg-[#949090];
-  }
-  #namePid {
-    @apply text-secondary uppercase mb-2.5;
-  }
-  .bothTypeSection {
-    @apply flex justify-center gap-2 mx-auto my-0;
-  }
-  .type1,
-  .type2 {
-    @apply text-xs bg-[#fefff2] p-[5px] rounded-[10px];
-  }
 }
