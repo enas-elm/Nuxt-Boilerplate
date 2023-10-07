@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default {
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   postcss: {
@@ -9,6 +9,8 @@ export default defineNuxtConfig({
     },
   },
   build: {
-    plugins: ["@babel/plugin-syntax-nullish-coalescing-operator"]
-  }
-})
+    babel: {
+      presets: ['@babel/preset-env'],
+    },
+  },
+};
