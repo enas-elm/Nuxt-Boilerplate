@@ -24,6 +24,5 @@ module.exports = {
     indent: ['warn', 2],
     quotes: ['warn', 'single'],
     semi: ['warn', 'never'],
-    'sort-keys': ['warn', 'asc', { caseSensitive: true, natural: false }],
   },
 };
