@@ -12,6 +12,8 @@
             Eslint, Prettier, Hero Icons, Babel, Tailwind, Nuxt... <br>
             check the <u> <a href="https://github.com/enas-elm/Nuxt-Boilerplate">github</a> </u> for more information !
         </p>
+
+        <MyComponent />
     </div>
 </template>
 

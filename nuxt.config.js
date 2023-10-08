@@ -13,4 +13,5 @@ export default {
       presets: ['@babel/preset-env'],
     },
   },
+  buildModules: ['@nuxtjs/storybook']
 };
