@@ -2,9 +2,9 @@
 
 This boilerplate is using :
 
-- [ESLint](#lint)
 - [Tailwind](#style)
 - [Hero-Icons](#icons)
+- [ESLint](#lint)
 - [Prettier](#formatter)
 - [Babel](#compiler)
 - [Jest](#test)
@@ -14,13 +14,6 @@ This boilerplate is using :
 
 You will find an exemple of what has been realised with this boilerplate in the "poekeapi" branch
 
-## Lint
-
-[ESLint](https://eslint.org/docs/latest/use/getting-started)
-
-Configure the rules in the **.eslintrc.json** file
-
-Run `npm run lint` to launch test
 
 ## Style
 
@@ -34,7 +27,7 @@ Configure your tailwind classes in **tailwind.config.js** and modify you style i
 
 Check the website to view all the icons -> [https://vue-hero-icons.netlify.app/](https://vue-hero-icons.netlify.app/)
 
-**USE :** Import the Icons as Components
+**USE :** Import the Icons as Components in your page
 
 ```js
 <script>
@@ -54,6 +47,13 @@ export default {
 ```html
 <ChevronRightIcon class="w-20 text-lightYellow" />
 ```
+## Lint
+
+[ESLint](https://eslint.org/docs/latest/use/getting-started)
+
+Configure the rules in the **.eslintrc.json** file
+
+Run `npm run lint`
 
 ## Formatter
 
@@ -75,9 +75,9 @@ Run `npm run build`
 
 ## Test
 
-[Jest](<[https://babeljs.io/setup#installation](https://jestjs.io/docs/getting-started)>)
+[Jest](https://jestjs.io/docs/getting-started)
 
-You can change the test in the \***\*test\*\*** folder
+You can change the test in the `__test__` folder
 
 Run `npm run test`
 
@@ -91,7 +91,7 @@ Right before your commit, husky wil launch your test to check if youre ode is re
 
 [Storybook](https://storybook.nuxtjs.org/)
 
-Configure your stories in the **story** folder
+Configure your stories in the **stories** folder
 
 Run `npm run storybook`
 
