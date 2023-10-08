@@ -69,7 +69,7 @@
 </template>
 
 <script>
-import './page.css';
+import './page.css'
 
 export default {
   name: 'my-page',
@@ -77,19 +77,19 @@ export default {
   data() {
     return {
       user: null,
-    };
+    }
   },
 
   methods: {
     onLogin() {
-      this.user = { name: 'Jane Doe' };
+      this.user = { name: 'Jane Doe' }
     },
     onLogout() {
-      this.user = null;
+      this.user = null
     },
     onCreateAccount() {
-      this.user = { name: 'Jane Doe' };
+      this.user = { name: 'Jane Doe' }
     },
   },
-};
+}
 </script>

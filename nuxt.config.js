@@ -14,4 +14,4 @@ export default {
     },
   },
   buildModules: ['@nuxtjs/storybook'],
-};
+}

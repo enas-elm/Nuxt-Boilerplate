@@ -1,4 +1,4 @@
-import Index from '../pages/index.vue';
+import Index from '../pages/index.vue'
 
 // More on how to set up stories at: https://storybook.js.org/docs/vue/writing-stories/introduction
 export default {
@@ -10,7 +10,7 @@ export default {
       control: 'color',
     },
   },
-};
+}
 
 // More on writing stories with args: https://storybook.js.org/docs/vue/writing-stories/args
 export const Primary = {
@@ -18,4 +18,4 @@ export const Primary = {
     primary: true,
     label: 'Index',
   },
-};
+}

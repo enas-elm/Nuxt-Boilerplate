@@ -19,10 +19,11 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
+
   rules: {
-    indent: ["warn", "tab"],
-    "linebreak-style": ["warn", "unix"],
-    quotes: ["warn", "double"],
-    semi: ["warn", "always"],
+    indent: ['warn', 2],
+    quotes: ['warn', 'single'],
+    semi: ['warn', 'never'],
+    'sort-keys': ['warn', 'asc', { caseSensitive: true, natural: false }],
   },
 };
