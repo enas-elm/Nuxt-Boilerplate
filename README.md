@@ -12,7 +12,7 @@ This boilerplate is using :
 - [Storybook](#storybook)
 - [Nuxt](#git-management)
 
-In the "Pokedex" branch you will find an exemple of what has been realised with this boilerplate
+You will find an exemple of what has been realised with this boilerplate in the "poekeapi" branch
 
 ## Lint
 
@@ -77,7 +77,7 @@ Run `npm run build`
 
 [Jest](<[https://babeljs.io/setup#installation](https://jestjs.io/docs/getting-started)>)
 
-You can change the test in the ****test**** folder
+You can change the test in the \***\*test\*\*** folder
 
 Run `npm run test`
 
