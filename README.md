@@ -9,7 +9,7 @@ This boilerplate is using :
 - [Babel](#compiler)
 - [Jest](#test)
 - [Husky](#compiler)
-- [Storybook](#stoybook)
+- [Storybook](#storybook)
 - [Nuxt](#git-management)
 
 In the "Pokedex" branch you will find an exemple of what has been realised with this boilerplate
@@ -18,7 +18,7 @@ In the "Pokedex" branch you will find an exemple of what has been realised with 
 
 [ESLint](https://eslint.org/docs/latest/use/getting-started)
 
-Configure the rules in the **'.eslintrc.json'** file
+Configure the rules in the **.eslintrc.json** file
 
 Run `npm run lint` to launch test
 
@@ -26,7 +26,7 @@ Run `npm run lint` to launch test
 
 [Tailwind](https://tailwindcss.com/docs/installation)
 
-Configure your tailwind classes in **'tailwind.config.js'** and modify you style in **'./assets/css/main.css'** and **'./assets/css/tailwind.css'**
+Configure your tailwind classes in **tailwind.config.js** and modify you style in **./assets/css/main.css** and **./assets/css/tailwind.css**
 
 ## Icons
 
@@ -77,7 +77,7 @@ Run `npm run build`
 
 [Jest](<[https://babeljs.io/setup#installation](https://jestjs.io/docs/getting-started)>)
 
-You can change the test in the \*\* **test\*\*** folder
+You can change the test in the ****test**** folder
 
 Run `npm run test`
 
@@ -90,6 +90,8 @@ Right before your commit, husky wil launch your test to check if youre ode is re
 ## Storybook
 
 [Storybook](<[https://typicode.github.io/husky/getting-started.html](https://storybook.nuxtjs.org/)>)
+
+Configure your stories in the **story** folder
 
 Run `npm run storybook`
 

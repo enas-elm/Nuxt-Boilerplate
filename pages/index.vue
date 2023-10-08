@@ -9,7 +9,7 @@
             <ChevronRightIcon class="w-20 text-lightYellow" />
         </div>
         <p class="mt-8 text-lg text-center text-tertiaryLight">
-            Eslint, Prettier, Hero Icons, Babel, Tailwind, Nuxt... <br>
+            Nuxt, Eslint, Prettier, Hero Icons, Babel, Tailwind, Jest, Husky and Storybook... <br>
             check the <u> <a href="https://github.com/enas-elm/Nuxt-Boilerplate">github</a> </u> for more information !
         </p>
 
