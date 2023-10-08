@@ -7,31 +7,29 @@ module.exports = {
     './plugins/**/*.{js,ts}',
     './app.vue',
   ],
+  plugins: [],
   theme: {
-    extend: {},
     colors: {
       primary: '#027b80',
-      primaryLight: '#B3ECEC',
       primaryDark: '#0f2827',
+      primaryLight: '#B3ECEC',
 
       secondary: '#c16161',
-      secondaryLight: '#EBC6C6',
       secondaryDark: '#7D0000',
+      secondaryLight: '#EBC6C6',
 
       tertiary: '#A2CF8C',
-      tertiaryLight: '#e3fad8',
-      tertiaryLight2: '#e3fad8',
       tertiaryDark: '#5C8149',
+      tertiaryLight: '#e3fad8',
 
-
-      greenGrayLight: '#bfd5b5',
       greenGrayDark: '#8aa18e',
+      greenGrayLight: '#bfd5b5',
 
       lightYellow: '#e1fd86',
     },
+    extend: {},
     screens: {
       xs: '480px',
     },
   },
-  plugins: [],
-};
+}
