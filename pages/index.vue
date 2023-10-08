@@ -22,7 +22,7 @@ import { ChevronLeftIcon } from '@heroicons/vue/24/solid';
 import { ChevronRightIcon } from '@heroicons/vue/24/solid';
 
 export default {
-    name: 'Home',
+    name: 'MyPage',
     components: {
         ChevronLeftIcon,
         ChevronRightIcon
