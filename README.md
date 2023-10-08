@@ -89,7 +89,7 @@ Right before your commit, husky wil launch your test to check if youre ode is re
 
 ## Storybook
 
-[Storybook](<[https://typicode.github.io/husky/getting-started.html](https://storybook.nuxtjs.org/)>)
+[Storybook](https://storybook.nuxtjs.org/)
 
 Configure your stories in the **story** folder
 
