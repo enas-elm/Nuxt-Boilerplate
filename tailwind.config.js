@@ -23,7 +23,6 @@ module.exports = {
       tertiaryLight2: '#e3fad8',
       tertiaryDark: '#5C8149',
 
-
       greenGrayLight: '#bfd5b5',
       greenGrayDark: '#8aa18e',
 

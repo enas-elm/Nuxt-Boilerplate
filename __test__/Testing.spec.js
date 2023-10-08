@@ -1,21 +1,16 @@
-import sum from '../assets/sum.js';
+const axios = require('axios');
 
-test("adds 1 + 2 to equal 3", () => {
-    expect(sum(1, 2)).toBe(3);
+test('Lien PokeAPI fonctionnel', async () => {
+  try {
+    const response = await axios.get('https://pokeapi.co/api/v2/pokemon/');
+
+    expect(response.status).toBe(200);
+
+
+    expect(response.data).toBeDefined();
+    expect(Array.isArray(response.data.results)).toBe(true);
+  } catch (error) {
+    fail(`Erreur lors de la requête vers l'API : ${error.message}`);
+  }
 });
-
-
-// import { mount } from '@vue/test-utils';
-// import index from '@/pages/index.vue';
-
-// describe('index.vue', () => {
-//     it('se charge correctement', () => {
-//         const wrapper = mount(index);
-
-//         expect(wrapper.exists()).toBe(true);
-
-//         expect(wrapper.text()).toContain('THIS IS A BOILERPLATE');
-//     });
-// });
-
 
